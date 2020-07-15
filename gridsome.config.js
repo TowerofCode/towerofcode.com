@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Tower of Code',
-  siteDescription: 'Tower of Code is a free & open source website to learn how to build websites, apps & anything else with code.',
+  siteDescription: 'Tower of Code is a free & open source website to learn how to build websites, apps & anything else you desire with code.',
   siteUrl: 'https://towerofcode.com',
   pathPrefix: '',
   titleTemplate: '%s | Tower of Code',
