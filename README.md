@@ -2,7 +2,7 @@
 
 This is the Git repository for towerofcode.com. Feel free to contribute 🥳
 
-### 1. Using this website
+### Using this website
 
 1. Learn
 2. Repeat step 1
