@@ -3,28 +3,6 @@
   <v-app>
     <v-navigation-drawer v-model="drawer" app clipped>
       <v-list dense>
-        <v-list-item link to="/">
-          <v-list-item-action>
-            <v-icon>mdi-view-dashboard</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>
-              Home
-            </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link to="/about">
-          <v-list-item-action>
-            <v-icon>mdi-view-dashboard</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>
-              About
-            </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
         <v-list-item link to="/learn">
           <v-list-item-action>
             <v-icon>mdi-view-dashboard</v-icon>
@@ -46,6 +24,28 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+
+        <v-list-item link to="/things">
+          <v-list-item-action>
+            <v-icon>mdi-view-dashboard</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>
+              Things
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item link to="/about">
+          <v-list-item-action>
+            <v-icon>mdi-view-dashboard</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>
+              About
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
@@ -57,10 +57,10 @@
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
-          <v-btn flat>Home</v-btn>
-          <v-btn flat>About</v-btn>
           <v-btn flat>Learn</v-btn>
           <v-btn flat>Blog</v-btn>
+          <v-btn flat>Recommendations</v-btn>
+          <v-btn flat>About</v-btn>
         </v-toolbar-items>
       </v-toolbar>
     </v-app-bar>
