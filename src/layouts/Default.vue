@@ -59,7 +59,7 @@
         <v-toolbar-items class="hidden-sm-and-down">
           <v-btn flat>Learn</v-btn>
           <v-btn flat>Blog</v-btn>
-          <v-btn flat>Recommendations</v-btn>
+          <v-btn flat>Things</v-btn>
           <v-btn flat>About</v-btn>
         </v-toolbar-items>
       </v-toolbar>
